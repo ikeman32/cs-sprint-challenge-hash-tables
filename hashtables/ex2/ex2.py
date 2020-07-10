@@ -30,13 +30,13 @@ def reconstruct_trip(tickets, length):
 
         # Your code here
     route = []
-    trip = cache["None"]
+    trip = cache["NONE"]
 
-    while trip != "None":
+    while trip != "NONE":
         route.append(trip)
         trip = cache[trip]
 
-    route.append("None")
+    route.append("NONE")
     return route
 
 
